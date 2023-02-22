@@ -7,6 +7,10 @@
     <title>About Page</title>
 </head>
 <body>
+
     <h1>About Page from Controller</h1>
+    <a href="{{ route('contact.page') }}"> Contact </a><br>
+    <a href="{{ url('/') }}"> Home </a>
+
 </body>
 </html>
